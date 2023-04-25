@@ -1,0 +1,40 @@
+body{
+    color: white;
+    background-color: #121212;
+    font-family: 'Courier New', Courier, monospace;
+}
+.Title{
+    text-align: center;
+    color: aquamarine;
+}
+
+.Subtitulo{
+    font-family: sans-serif;
+}
+
+.imgPensamiento{
+    width: 8pc;
+    border: 9px aquamarine solid;
+    border-radius: 50%;
+    height: 8pc;
+}
+.Curso{
+    width: 16pc;
+    text-align: center;   
+    margin: 0 1pc;
+}
+.container{
+    padding: 0 8pc;
+}
+.ContainerCurso{
+    display: flex;
+    justify-content: center;
+}
+
+.Curso:hover{
+    -webkit-box-shadow: 10px 10px 41px 0px rgba(242,237,242,1);
+-moz-box-shadow: 10px 10px 41px 0px rgba(242,237,242,1);
+box-shadow: 10px 10px 41px 0px rgba(242,237,242,1); 
+}
+
+/* */
