@@ -13,8 +13,12 @@
     <div class="container">
       <div class="Title">
         <h1>Coldistatote</h1>
+        <div class="option">
+          <a href="#Recursos"><p>Recursos</p></a>
+          <p>Contactanos</p>
+        </div>
       </div>
-      <div>
+      <div class="containerBody">
         <h2 class="Subtitulo">Nuestros Cursos</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, quo?
@@ -23,42 +27,90 @@
           voluptatem iste repudiandae?
         </p>
         <div class="ContainerCurso">
-          <div class="Curso">
-            <h3>Pensamiento Logico</h3>
-            <p>
-              Este es un curso en el cual aprenderas las bases del pensamiento
-              computacional
-            </p>
-            <img
-              src="./pensamiento.jpg"
-              alt="img de pensamiento"
-              class="imgPensamiento"
-            />
-          </div>
+          <a href="https://concepto.de/pensamiento-logico/" target="_blank">
+            <div class="Curso">
+              <h3>Pensamiento Logico</h3>
+              <p>
+                Este es un curso en el cual aprenderas las bases del pensamiento
+                computacional
+              </p>
+              <img
+                src="./pensamiento.jpg"
+                alt="img de pensamiento"
+                class="imgPensamiento"
+              />
+            </div>
+          </a>
 
-          <div class="Curso">
-            <h3>Pensamiento Matematico</h3>
-            <p>
-              Este es un curso en el cual aprenderas las bases del pensamiento
-              Matematico
-            </p>
-            <img
-              src="./pensamientoMath.webp"
-              alt="img de pensamiento"
-              class="imgPensamiento"
-            />
+          <a
+            href="https://www.significados.com/pensamiento-matematico/"
+            target="_blank"
+          >
+            <div class="Curso">
+              <h3>Pensamiento Matematico</h3>
+              <p>
+                Este es un curso en el cual aprenderas las bases del pensamiento
+                Matematico
+              </p>
+              <img
+                src="./pensamientoMath.webp"
+                alt="img de pensamiento"
+                class="imgPensamiento"
+              />
+            </div>
+          </a>
+          <a href="https://concepto.de/pensamiento-critico/" target="_blank">
+            <div class="Curso">
+              <h3>Pensamiento Critico</h3>
+              <p>
+                Este es un curso en el cual aprenderas las bases del pensamiento
+                Critico
+              </p>
+              <img
+                src="./critico.jpg"
+                alt="img de pensamiento"
+                class="imgPensamiento"
+              />
+            </div>
+          </a>
+        </div>
+        <div id="Recursos">
+          <h2>Recursos -Documentacion</h2>
+          <div class="containerDoc">
+            <div class="izquierda">
+              <h3>Aqui encontraras algunos de los recursos y documentacion basicsa para el avance de tu diseno de tu pagina web</h2>
+                <p>Como Buenas practicas, las propiedades mas utilizadas, cuales estan en uso y cuales son y mucho mas</p>
+                <ul>
+                  <li>Documentacion HTML.....   <a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank" class="Recursos">More</a></li>
+                  <li>Documentacion CSS.....    <a href="https://developer.mozilla.org/es/docs/Web/CSS" target="_blank" class="Recursos">More</a></li>
+                  <li>justify-content.....  <a href="https://developer.mozilla.org/es/docs/Web/CSS/justify-content " target="_blank" class="Recursos">More</a></li>
+                  <li>Generador de sombras.....   <a href="https://cssgenerator.org/box-shadow-css-generator.html" target="_blank" class="Recursos">More</a></li>
+                 </ul>
+              </div>
+            <div class="derecha">
+              <!-- <h2>Este es el lado Derecho</h2> -->
+
+            </div>
           </div>
-          <div class="Curso">
-            <h3>Pensamiento Critico</h3>
-            <p>
-              Este es un curso en el cual aprenderas las bases del pensamiento
-              Critico
-            </p>
-            <img
-              src="./critico.jpg"
-              alt="img de pensamiento"
-              class="imgPensamiento"
-            />
+        </div>
+        <div class="containerContc">
+          <h2>Contactanos</h2>
+          <div>
+              <form >
+                <div class="Formulario">
+                  <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required placeholder="Jose"/>
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" required placeholder="De la Hoz"/>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="Jose@gmail.com"/>
+                <label for="telefono">Teléfono:</label>
+                <input type="text" id="telefono" name="telefono" required placeholder="300....989"/>
+                <label for="direccion">Dirección:</label>
+                <input type="text" id="direccion" name="direccion" required placeholder="Calle ... 76"/>
+                </div>
+               <input type="submit" value="Registrarse" />
+              </form>
           </div>
         </div>
       </div>

@@ -6,7 +6,23 @@ body{
 .Title{
     text-align: center;
     color: aquamarine;
+    display: flex;
+    justify-content: space-between;  /*El space-between sirve para hacer una distribucion de todos los elementos*/
+    align-items: center;
 }
+a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+.option{
+    display: flex;
+}
+
+.option > p {
+    margin: 1pc;
+}
+
 
 .Subtitulo{
     font-family: sans-serif;
@@ -23,18 +39,52 @@ body{
     text-align: center;   
     margin: 0 1pc;
 }
-.container{
+.containerBody{
     padding: 0 8pc;
 }
 .ContainerCurso{
     display: flex;
     justify-content: center;
+    margin: 6pc 0;
 }
+.containerDoc{
+    display: flex;
+    width: 100hv;
+}
+.izquierda{
+    width: 50%;
+    padding: 0 1pc;
 
+}
+.derecha{
+    width: 50%;
+}
+.Formulario{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 25%;
+    margin-left: 10pc;
+}
+.Formulario > label{
+    
+    margin: 7px 2pc;
+    margin-right: 1px;
+
+}
+.Formulario > input{
+    margin: 6px 
+}
 .Curso:hover{
-    -webkit-box-shadow: 10px 10px 41px 0px rgba(242,237,242,1);
--moz-box-shadow: 10px 10px 41px 0px rgba(242,237,242,1);
-box-shadow: 10px 10px 41px 0px rgba(242,237,242,1); 
+    box-shadow: 0px 0px 13px 1px rgba(255,255,255,0.66);
+    -webkit-box-shadow: 0px 0px 13px 1px rgba(255,255,255,0.66);
+    -moz-box-shadow: 0px 0px 13px 1px rgba(255,255,255,0.66);
+}
+.Recursos:hover{
+    color: aquamarine;
+}
+.containerContc{
+    width: 100hv;
+    text-align: center;
 }
 
 /* */
