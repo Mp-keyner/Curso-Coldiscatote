@@ -128,7 +128,9 @@ nav > p {
     width: 25%;
     margin-left: 10pc;
     justify-content: center;
+    margin: 6pc 0;
 }
+<<<<<<< HEAD
 .Formulario > label{
     
     margin: 7px 2pc;
@@ -138,10 +140,36 @@ nav > p {
 }
 .izquierda > img {
     width: 100%;
+=======
+.containerDoc{
+    display: flex;
+    width: 100hv;
+}
+.izquierda{
+    width: 50%;
+    padding: 0 1pc;
+
+}
+.derecha{
+    width: 50%;
+}
+.Formulario{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 25%;
+    margin-left: 10pc;
+}
+.Formulario > label{
+    
+    margin: 7px 2pc;
+    margin-right: 1px;
+
+>>>>>>> 191656e46f13591859d2d83aad0cbcab7768865e
 }
 .Formulario > input{
     margin: 6px 
 }
+<<<<<<< HEAD
 /* Definimos la escala inicial */
 
 
@@ -151,6 +179,19 @@ nav > p {
 .Curso:hover {
   transform: scale(1.2);
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+=======
+.Curso:hover{
+    box-shadow: 0px 0px 13px 1px rgba(255,255,255,0.66);
+    -webkit-box-shadow: 0px 0px 13px 1px rgba(255,255,255,0.66);
+    -moz-box-shadow: 0px 0px 13px 1px rgba(255,255,255,0.66);
+}
+.Recursos:hover{
+    color: aquamarine;
+}
+.containerContc{
+    width: 100hv;
+    text-align: center;
+>>>>>>> 191656e46f13591859d2d83aad0cbcab7768865e
 }
 
 /* Definimos la animación para cuando se desactive el hover */
